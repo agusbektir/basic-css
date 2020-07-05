@@ -1,0 +1,63 @@
+body{
+    color: orangered;
+    background-color: greenyellow;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 2em;
+    margin: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.box-1{
+    color: white;
+    background-color: darkblue;
+    border-right: 5px red solid;
+    border-width: 3px;
+    border-bottom: 10px red solid;
+}
+
+.box-1 h1{
+    font-family: Tahoma;
+    font-size: 32px;
+    color: yellow;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 3px dotted coral;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.categories{
+    border: 1px solid green;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    text-align: center;
+    list-style: square;
+}
+
+a:hover{
+    color: red;
+}
+
+a:active{
+    color: indigo;
+}
+
+a:visited{
+    color: lightcyan;
+}
