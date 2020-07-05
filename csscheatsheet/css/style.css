@@ -50,8 +50,12 @@ body{
     list-style: square;
 }
 
+.clr{
+    clear: both;
+}
+
 a:hover{
-    color: red;
+    color: blue;
 }
 
 a:active{
@@ -60,4 +64,51 @@ a:active{
 
 a:visited{
     color: lightcyan;
+}
+
+.categories li{
+    padding-bottom: 5px;
+
+}
+
+.my-form{
+    padding: 20px;
+    color: teal;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.my-form form-group{
+    padding-bottom: 10px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form email, .my-form textarea{
+    padding: 8px;
+    width: 90%;
+}
+
+.button{
+    color: white;
+    background-color: crimson;
+    padding: 10px 15px;
+    border: none;
+}
+
+.button:hover{
+    background-color: burlywood;
+    color: black;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    color: black;
+    background-color: burlywood;
+    border: 1px solid ;
+    padding: 10px;
+    box-sizing: border-box;
 }
